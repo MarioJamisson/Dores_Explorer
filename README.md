@@ -16,7 +16,7 @@
 - **⚡ Automação de Triagem (1-Click)**: O script inteligente separa milhares de arquivos soltos em pastas por categoria (Imagens, Docs, Vídeos, etc.) instantaneamente, economizando horas de trabalho braçal.
 - **📊 Dashboard Analítico Funcional**: Interface que traz visibilidade imediata dos gargalos de armazenamento utilizando gráficos de rosca interativos (Chart.js) para tomada de decisão rápida.
 - **📁 Análise de Dados Profunda**: Varredura recursiva que calcula o peso real de diretórios aninhados, evitando que arquivos pesados fiquem escondidos no sistema.
-- **📦 Deploy Descomplicado**: Totalmente empacotado (`PyInstaller`) num único arquivo executável, que inicializa o servidor local e o dashboard no navegador de forma autônoma (zero setup para o utilizador final).
+- **📦 Deploy Descomplicado**: Totalmente empacotado (`PyInstaller`) num arquivo único executável, que inicializa o servidor local e o dashboard no navegador de forma autônoma (zero setup para o utilizador final).
 - **🔴 UI/UX de Alto Contraste**: Estética Cyber-Goth (Vermelho/Preto) otimizada para legibilidade, com o assistente "Dores" atuando como indicador visual de estado durante processamentos pesados.
 
 ## 🛠️ Tecnologias & Arquitetura
@@ -37,3 +37,11 @@
 2. Instale as dependências da API:
    ```bash
    pip install flask flask-cors
+   ```
+3. Inicie o orquestrador local:
+   ```bash
+   python app.py
+   ```
+
+---
+*Construído com foco em produtividade, automação de tarefas repetitivas e rápida prototipagem de soluções.*
